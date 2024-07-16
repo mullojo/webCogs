@@ -1,6 +1,6 @@
-// This JS file contains code to cryptographically sign any Web Cog
+// This JS file contains code to cryptographically sign Web Cogs
 
-import { nacl } from 'https://cdn.jsdelivr.net/npm/tweetnacl@1.0.3/nacl-fast.min.js';
+import { default as nacl } from 'https://cdn.jsdelivr.net/npm/tweetnacl@1.0.3/+esm';
 
 // Generates a new Ed25519 key pair
 export function generateKeyPair() {
